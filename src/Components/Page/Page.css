@@ -1,0 +1,42 @@
+.Page .banner{
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-size: cover;
+    background-position: center;
+}
+
+.Page .banner h1{
+    font-weight: 600;
+}
+.Page .container{
+    margin-top: 10vh;
+    margin-bottom:10vh;
+}
+.Page .review{
+    margin: 10px;
+    margin-top: 30px;
+    
+    padding: 10px;
+}
+.Page .review p{
+    text-align: justify;
+}
+.buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.buttons button{
+    padding: 10px ;outline: none;
+    border: none;
+    width: 50%;
+    margin: 15px;
+    font-weight: 600;
+
+}
+.buttons button:hover{
+   background-color: antiquewhite;
+   box-shadow: 2px 2px 4px antiquewhite, -2px -2px 4px antiquewhite;
+}

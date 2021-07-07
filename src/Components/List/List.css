@@ -1,0 +1,51 @@
+.List .container{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.hotel-card{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0px;
+    box-shadow: 3px 3px 20px rgb(231, 231, 231), -3px -3px 20px rgb(224, 224, 224);
+    border-radius: 30px;
+    overflow: hidden;
+    transition: 0.5s;
+    margin: 40px;
+}
+
+.hotel-card .right{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.hotel-card .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.hotel-card .left img{
+   border-radius: 30px;
+}
+.view-more{
+    width: 200px;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(238, 238, 238);
+    font-weight: 600;
+    transition: 0.5s;
+}
+.view-more:hover{
+    background-color: skyblue;
+    color: white;
+    box-shadow: 2px 2px 3px skyblue, -2px -2px 3px skyblue;
+}

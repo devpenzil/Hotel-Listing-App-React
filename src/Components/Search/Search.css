@@ -1,0 +1,13 @@
+.Search .container{
+    min-height: 80vh;
+  padding-top: 30vh;
+    margin-bottom: 10vh;
+    
+}
+
+.Search{
+    background-image: url('https://images.pexels.com/photos/2440856/pexels-photo-2440856.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

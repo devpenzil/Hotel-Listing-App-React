@@ -1,0 +1,12 @@
+.NavBar{
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding-left: 20px;
+    font-weight: 600;
+}
+.NavBar span{
+    cursor: pointer;
+}
